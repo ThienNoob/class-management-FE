@@ -1,0 +1,21 @@
+.main__content {
+    display: flex;
+    min-height: 100vh;
+    flex: 1 1 0%;
+    flex-direction: column;
+    padding-left: 1.5rem/* 24px */;
+    padding-right: 1.5rem/* 24px */;
+    padding-bottom: 1.5rem/* 24px */;
+    padding-top: 7rem/* 112px */;
+}
+@media not all and (min-width: 768px) {
+    .main__content {
+        padding-bottom: 3.5rem/* 56px */;
+    }
+}
+@media (min-width: 640px) {
+    .main__content {
+        padding-left: 3.5rem/* 56px */;
+        padding-right: 3.5rem/* 56px */;
+    }
+}
